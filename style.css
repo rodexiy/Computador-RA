@@ -29,10 +29,14 @@
 .perguntas{
     font-family: 'Raleway', sans-serif;
     padding: 30px;
-    width: 400px;
     border-radius: 20px;
     border: 1px solid;
+    transition: .5s ease;
 
+}
+
+.perguntas:hover{
+    transform: scale(1.05);
 }
 
 .respostaHidden{
@@ -49,7 +53,10 @@
 
 .principal{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 30px;
     padding: 100px;
 }
 
@@ -71,4 +78,10 @@ a{
 
 a:hover{
     color: aqua;
+}
+
+.scanear{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
 }
