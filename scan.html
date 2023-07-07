@@ -2,26 +2,28 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/style.css">
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
   </head>
   <body>
     
-    <a-scene id="cena" mindar-image="imageTargetSrc: ./targets.mind; maxTrack: 1; uiLoading:yes; uiScanning:yes" color-space="sRGB"
+    <!-- <a-scene id="cena" mindar-image="imageTargetSrc: ./targets.mind; maxTrack: 1; uiLoading:yes; uiScanning:yes" color-space="sRGB"
         renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false "
         device-orientation-permission-ui="enabled: false">
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <a-entity id="computador0" mindar-image-target="targetIndex: 0"></a-entity>
+        
+   </a-scene> -->
 
-        <div id="card">
-            <img id="Imagem">
-            <p id="descricao">
-        </div>
+   <div id="card">
+      <img id="card-imagem" >
+      <p id="card-descricao"></p>
+  </div>
 
-   </a-scene>
+
 
     <script src="script.js"></script>
   </body>

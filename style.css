@@ -85,3 +85,25 @@ a:hover{
     border-radius: 20px;
     padding: 5px;
 }
+
+#card {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+
+#card-descricao {
+    display: none;
+}
+
+#card-imagem {
+    display: none;
+    align-self: center;
+    justify-self: center;
+    width: 250px;
+    height: 250px;
+}
